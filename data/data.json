@@ -1,0 +1,454 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Dmitri Kim",
+      "email": "dmitri.kim@northwindtraders.com",
+      "phone": "+1 (959) 481-5012",
+      "company": "Northwind Traders",
+      "status": "active",
+      "lastContactDate": "2026-03-07"
+    },
+    {
+      "id": "2",
+      "name": "Victor O'Connor",
+      "email": "victor.oconnor@ferrousmetals.com",
+      "phone": "+1 (232) 230-2535",
+      "company": "Ferrous Metals",
+      "status": "active",
+      "lastContactDate": "2026-03-26"
+    },
+    {
+      "id": "3",
+      "name": "Amina Marn",
+      "email": "amina.marn@ferrousmetals.com",
+      "phone": "+1 (425) 659-5557",
+      "company": "Ferrous Metals",
+      "status": "inactive",
+      "lastContactDate": "2026-07-18"
+    },
+    {
+      "id": "4",
+      "name": "Mariam Hassan",
+      "email": "mariam.hassan@orbitanalytics.com",
+      "phone": "+1 (359) 420-6514",
+      "company": "Orbit Analytics",
+      "status": "active",
+      "lastContactDate": "2026-08-03"
+    },
+    {
+      "id": "5",
+      "name": "Felix Cruz",
+      "email": "felix.cruz@orbitanalytics.com",
+      "phone": "+1 (244) 947-8527",
+      "company": "Orbit Analytics",
+      "status": "active",
+      "lastContactDate": "2026-08-07"
+    },
+    {
+      "id": "6",
+      "name": "Tariq Volkov",
+      "email": "tariq.volkov@junctionretail.com",
+      "phone": "+1 (791) 396-2139",
+      "company": "Junction Retail",
+      "status": "active",
+      "lastContactDate": "2026-06-14"
+    },
+    {
+      "id": "7",
+      "name": "Omar Rossi",
+      "email": "omar.rossi@meridianhealth.com",
+      "phone": "+1 (484) 664-6977",
+      "company": "Meridian Health",
+      "status": "active",
+      "lastContactDate": "2026-07-05"
+    },
+    {
+      "id": "8",
+      "name": "Mei Warsame",
+      "email": "mei.warsame@globex.com",
+      "phone": "+1 (823) 850-3803",
+      "company": "Globex",
+      "status": "active",
+      "lastContactDate": "2026-07-17"
+    },
+    {
+      "id": "9",
+      "name": "Carlos Chen",
+      "email": "carlos.chen@beaconsystems.com",
+      "phone": "+1 (901) 532-1916",
+      "company": "Beacon Systems",
+      "status": "active",
+      "lastContactDate": "2026-06-08"
+    },
+    {
+      "id": "10",
+      "name": "Mei Al-Rashid",
+      "email": "mei.al-rashid@cascadeco.com",
+      "phone": "+1 (780) 935-6155",
+      "company": "Cascade Co",
+      "status": "active",
+      "lastContactDate": "2026-05-18"
+    },
+    {
+      "id": "11",
+      "name": "Leila Zhang",
+      "email": "leila.zhang@orbitanalytics.com",
+      "phone": "+1 (342) 452-9830",
+      "company": "Orbit Analytics",
+      "status": "active",
+      "lastContactDate": "2026-05-10"
+    },
+    {
+      "id": "12",
+      "name": "Aisha Tanaka",
+      "email": "aisha.tanaka@beaconsystems.com",
+      "phone": "+1 (341) 721-9085",
+      "company": "Beacon Systems",
+      "status": "active",
+      "lastContactDate": "2026-07-30"
+    },
+    {
+      "id": "13",
+      "name": "Dmitri Menon",
+      "email": "dmitri.menon@ferrousmetals.com",
+      "phone": "+1 (810) 265-7304",
+      "company": "Ferrous Metals",
+      "status": "active",
+      "lastContactDate": "2026-04-14"
+    },
+    {
+      "id": "14",
+      "name": "Amina Nair",
+      "email": "amina.nair@starkindustries.com",
+      "phone": "+1 (898) 749-5371",
+      "company": "Stark Industries",
+      "status": "inactive",
+      "lastContactDate": "2026-07-30"
+    },
+    {
+      "id": "15",
+      "name": "Mariam Menon",
+      "email": "mariam.menon@sundialenergy.com",
+      "phone": "+1 (203) 939-5315",
+      "company": "Sundial Energy",
+      "status": "inactive",
+      "lastContactDate": "2026-04-20"
+    },
+    {
+      "id": "16",
+      "name": "Dmitri Dubois",
+      "email": "dmitri.dubois@cascadeco.com",
+      "phone": "+1 (356) 582-3646",
+      "company": "Cascade Co",
+      "status": "active",
+      "lastContactDate": "2026-08-27"
+    },
+    {
+      "id": "17",
+      "name": "Arjun Delgado",
+      "email": "arjun.delgado@northwindtraders.com",
+      "phone": "+1 (314) 571-6038",
+      "company": "Northwind Traders",
+      "status": "active",
+      "lastContactDate": "2026-04-04"
+    },
+    {
+      "id": "18",
+      "name": "Liam Fontaine",
+      "email": "liam.fontaine@crestwoodlogistics.com",
+      "phone": "+1 (270) 978-9727",
+      "company": "Crestwood Logistics",
+      "status": "inactive",
+      "lastContactDate": "2026-03-12"
+    },
+    {
+      "id": "19",
+      "name": "Amina Menon",
+      "email": "amina.menon@orbitanalytics.com",
+      "phone": "+1 (740) 821-7932",
+      "company": "Orbit Analytics",
+      "status": "inactive",
+      "lastContactDate": "2026-03-04"
+    },
+    {
+      "id": "20",
+      "name": "Sara Dubois",
+      "email": "sara.dubois@meridianhealth.com",
+      "phone": "+1 (887) 865-7118",
+      "company": "Meridian Health",
+      "status": "active",
+      "lastContactDate": "2026-05-04"
+    },
+    {
+      "id": "21",
+      "name": "Zainab Haddad",
+      "email": "zainab.haddad@globex.com",
+      "phone": "+1 (546) 221-4770",
+      "company": "Globex",
+      "status": "active",
+      "lastContactDate": "2026-08-09"
+    },
+    {
+      "id": "22",
+      "name": "Dmitri Sato",
+      "email": "dmitri.sato@beaconsystems.com",
+      "phone": "+1 (269) 232-6413",
+      "company": "Beacon Systems",
+      "status": "active",
+      "lastContactDate": "2026-06-17"
+    },
+    {
+      "id": "23",
+      "name": "Rosa Suzuki",
+      "email": "rosa.suzuki@innovatech.com",
+      "phone": "+1 (940) 784-8744",
+      "company": "Innovatech",
+      "status": "active",
+      "lastContactDate": "2026-05-15"
+    },
+    {
+      "id": "24",
+      "name": "Sofia Rossi",
+      "email": "sofia.rossi@ferrousmetals.com",
+      "phone": "+1 (562) 633-7735",
+      "company": "Ferrous Metals",
+      "status": "active",
+      "lastContactDate": "2026-03-08"
+    },
+    {
+      "id": "25",
+      "name": "Farida Rossi",
+      "email": "farida.rossi@acmecorp.com",
+      "phone": "+1 (612) 945-6559",
+      "company": "Acme Corp",
+      "status": "inactive",
+      "lastContactDate": "2026-06-25"
+    },
+    {
+      "id": "26",
+      "name": "Diego Alvarado",
+      "email": "diego.alvarado@sundialenergy.com",
+      "phone": "+1 (343) 632-4006",
+      "company": "Sundial Energy",
+      "status": "active",
+      "lastContactDate": "2026-08-08"
+    },
+    {
+      "id": "27",
+      "name": "Amina Rossi",
+      "email": "amina.rossi@acmecorp.com",
+      "phone": "+1 (867) 753-1241",
+      "company": "Acme Corp",
+      "status": "inactive",
+      "lastContactDate": "2026-07-16"
+    },
+    {
+      "id": "28",
+      "name": "Rosa Iyer",
+      "email": "rosa.iyer@cascadeco.com",
+      "phone": "+1 (610) 260-3697",
+      "company": "Cascade Co",
+      "status": "active",
+      "lastContactDate": "2026-06-21"
+    },
+    {
+      "id": "29",
+      "name": "Tariq Farouk",
+      "email": "tariq.farouk@crestwoodlogistics.com",
+      "phone": "+1 (358) 394-5861",
+      "company": "Crestwood Logistics",
+      "status": "active",
+      "lastContactDate": "2026-04-01"
+    },
+    {
+      "id": "30",
+      "name": "Victor Sato",
+      "email": "victor.sato@palisadegroup.com",
+      "phone": "+1 (258) 251-8811",
+      "company": "Palisade Group",
+      "status": "active",
+      "lastContactDate": "2026-07-18"
+    },
+    {
+      "id": "31",
+      "name": "Kwame O'Connor",
+      "email": "kwame.oconnor@vertexlabs.com",
+      "phone": "+1 (270) 809-2113",
+      "company": "Vertex Labs",
+      "status": "active",
+      "lastContactDate": "2026-05-16"
+    },
+    {
+      "id": "32",
+      "name": "Theo Ahmed",
+      "email": "theo.ahmed@acmecorp.com",
+      "phone": "+1 (834) 283-7868",
+      "company": "Acme Corp",
+      "status": "active",
+      "lastContactDate": "2026-04-16"
+    },
+    {
+      "id": "33",
+      "name": "Lucas Suzuki",
+      "email": "lucas.suzuki@palisadegroup.com",
+      "phone": "+1 (444) 471-7484",
+      "company": "Palisade Group",
+      "status": "active",
+      "lastContactDate": "2026-06-12"
+    },
+    {
+      "id": "34",
+      "name": "Arjun Moreno",
+      "email": "arjun.moreno@globex.com",
+      "phone": "+1 (209) 669-2638",
+      "company": "Globex",
+      "status": "active",
+      "lastContactDate": "2026-04-20"
+    },
+    {
+      "id": "35",
+      "name": "Amara Novak",
+      "email": "amara.novak@globex.com",
+      "phone": "+1 (450) 578-5669",
+      "company": "Globex",
+      "status": "active",
+      "lastContactDate": "2026-02-28"
+    },
+    {
+      "id": "36",
+      "name": "Sakura Rahman",
+      "email": "sakura.rahman@northwindtraders.com",
+      "phone": "+1 (883) 767-5905",
+      "company": "Northwind Traders",
+      "status": "inactive",
+      "lastContactDate": "2026-07-24"
+    },
+    {
+      "id": "37",
+      "name": "Noah Rossi",
+      "email": "noah.rossi@innovatech.com",
+      "phone": "+1 (478) 488-4450",
+      "company": "Innovatech",
+      "status": "active",
+      "lastContactDate": "2026-03-05"
+    },
+    {
+      "id": "38",
+      "name": "Lucas Mensah",
+      "email": "lucas.mensah@crestwoodlogistics.com",
+      "phone": "+1 (457) 252-2512",
+      "company": "Crestwood Logistics",
+      "status": "active",
+      "lastContactDate": "2026-08-16"
+    },
+    {
+      "id": "39",
+      "name": "Nadia Blackwood",
+      "email": "nadia.blackwood@innovatech.com",
+      "phone": "+1 (852) 468-3647",
+      "company": "Innovatech",
+      "status": "inactive",
+      "lastContactDate": "2026-02-28"
+    },
+    {
+      "id": "40",
+      "name": "Amina Nair",
+      "email": "amina.nair1@starkindustries.com",
+      "phone": "+1 (277) 907-3442",
+      "company": "Stark Industries",
+      "status": "active",
+      "lastContactDate": "2026-03-31"
+    },
+    {
+      "id": "41",
+      "name": "Ivy Farouk",
+      "email": "ivy.farouk@innovatech.com",
+      "phone": "+1 (242) 515-6974",
+      "company": "Innovatech",
+      "status": "inactive",
+      "lastContactDate": "2026-05-28"
+    },
+    {
+      "id": "42",
+      "name": "Lupita Ahmed",
+      "email": "lupita.ahmed@starkindustries.com",
+      "phone": "+1 (562) 998-7658",
+      "company": "Stark Industries",
+      "status": "inactive",
+      "lastContactDate": "2026-06-28"
+    },
+    {
+      "id": "43",
+      "name": "Grace Bishop",
+      "email": "grace.bishop@northwindtraders.com",
+      "phone": "+1 (383) 954-6442",
+      "company": "Northwind Traders",
+      "status": "inactive",
+      "lastContactDate": "2026-03-09"
+    },
+    {
+      "id": "44",
+      "name": "Zainab Chen",
+      "email": "zainab.chen@vertexlabs.com",
+      "phone": "+1 (918) 310-7267",
+      "company": "Vertex Labs",
+      "status": "inactive",
+      "lastContactDate": "2026-07-02"
+    },
+    {
+      "id": "45",
+      "name": "Leila Novak",
+      "email": "leila.novak@silverlinemedia.com",
+      "phone": "+1 (433) 428-1387",
+      "company": "Silverline Media",
+      "status": "active",
+      "lastContactDate": "2026-06-04"
+    },
+    {
+      "id": "46",
+      "name": "Fatima Blackwood",
+      "email": "fatima.blackwood@orbitanalytics.com",
+      "phone": "+1 (559) 856-9346",
+      "company": "Orbit Analytics",
+      "status": "active",
+      "lastContactDate": "2026-06-04"
+    },
+    {
+      "id": "47",
+      "name": "Noah Bennett",
+      "email": "noah.bennett@vertexlabs.com",
+      "phone": "+1 (794) 471-1626",
+      "company": "Vertex Labs",
+      "status": "active",
+      "lastContactDate": "2026-05-31"
+    },
+    {
+      "id": "48",
+      "name": "Arjun Farouk",
+      "email": "arjun.farouk@starkindustries.com",
+      "phone": "+1 (594) 790-4114",
+      "company": "Stark Industries",
+      "status": "active",
+      "lastContactDate": "2026-08-27"
+    },
+    {
+      "id": "49",
+      "name": "Victor Flores",
+      "email": "victor.flores@cascadeco.com",
+      "phone": "+1 (572) 641-2146",
+      "company": "Cascade Co",
+      "status": "inactive",
+      "lastContactDate": "2026-03-21"
+    },
+    {
+      "id": "50",
+      "name": "Jonas Kim",
+      "email": "jonas.kim@silverlinemedia.com",
+      "phone": "+1 (719) 516-7691",
+      "company": "Silverline Media",
+      "status": "active",
+      "lastContactDate": "2026-04-08"
+    }
+  ]
+}
