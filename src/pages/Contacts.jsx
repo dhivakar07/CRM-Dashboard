@@ -3,31 +3,15 @@ import Sidenav from "../components/Sidenav";
 import Table from "../components/Table";
 import Card from "../components/Card";
 import { Plus, Search, ListFilterPlus, Table2, LayoutGrid } from "lucide-react";
-import { useEffect, useState } from "react";
-import axios from "axios";
+import { useState } from "react";
+import { useCustomers } from "../hooks/useCustomers";
+import EditCustomer from "../components/EditCustomer";
 function Contacts() {
   const [view, setView] = useState("table");
   const [search, setsearch] = useState("");
+  const [edit, setedit] = useState(null);
 
-  const API_URL = import.meta.env.VITE_SERVER_API;
-
-  const [customers, setCustomers] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const fetchCustomers = async () => {
-      try {
-        const res = await axios.get(API_URL);
-        setCustomers(res.data);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchCustomers();
-  }, []);
+  const { data: customers = [], isLoading, isError, error } = useCustomers();
 
   const filteredCustomers = customers.filter((c) => {
     const value = search.toLowerCase();
@@ -37,7 +21,6 @@ function Contacts() {
       c.company.toLowerCase().includes(value)
     );
   });
-
   return (
     <section className="flex min-h-screen">
       <Sidenav />
@@ -56,7 +39,6 @@ function Contacts() {
               Add contact
             </button>
           </header>
-
           <div className="flex items-center justify-between mb-5">
             <div className="flex items-center gap-3">
               <div className="relative w-[280px]">
@@ -102,18 +84,21 @@ function Contacts() {
               </button>
             </div>
           </div>
-          {loading && <p className="text-[#9BA0B4]">Loading customers…</p>}
-          {error && (
-            <p className="text-red-400">Something went wrong: {error}</p>
+          {isLoading && <p className="text-[#9BA0B4]">Loading customers…</p>}
+          {isError && (
+            <p className="text-red-400">
+              Something went wrong: {error.message}
+            </p>
           )}
 
-          {!loading &&
-            !error &&
+          {!isLoading &&
+            !isError &&
             (view === "table" ? (
-              <Table customers={filteredCustomers} />
+              <Table customers={filteredCustomers} onedit={setedit} />
             ) : (
-              <Card customers={filteredCustomers} />
+              <Card customers={filteredCustomers} onedit={setedit} />
             ))}
+          <EditCustomer customer={edit} onClose={() => setedit(null)} />
         </section>
       </main>
     </section>
