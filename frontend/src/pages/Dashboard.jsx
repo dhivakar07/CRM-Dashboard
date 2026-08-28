@@ -5,11 +5,15 @@ import { useCustomers } from "../hooks/useCustomers";
 import { useState } from "react";
 
 function Dashboard() {
-  const { data: customers = [] } = useCustomers();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const { data } = useCustomers();
+
+  const customers = Array.isArray(data) ? data : [];
+
   const activecount = customers.filter(
     (item) => item.status === "active",
   ).length;
+
   const inactive = customers.filter(
     (item) => item.status === "inactive",
   ).length;

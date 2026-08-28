@@ -28,8 +28,8 @@ function Contacts() {
   });
   const [filteropen, setfilteropen] = useState(false);
 
-  const { data: customers = [], isLoading, isError, error } = useCustomers();
-
+  const { data, isLoading, isError, error } = useCustomers();
+  const customers = Array.isArray(data) ? data : [];
   const companies = [...new Set(customers.map((item) => item.company))];
 
   const filteredCustomers = customers.filter((c) => {
