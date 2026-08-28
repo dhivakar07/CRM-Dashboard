@@ -12,6 +12,7 @@ export function useUpdateCustomer() {
       axios.patch(`${API_URL}/${id}`, updates),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["customers"] });
+      console.log("Edited Successfully");
     },
     onError: (error) => {
       console.error(error.message);

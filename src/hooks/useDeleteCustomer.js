@@ -16,10 +16,8 @@ export function useDeleteCustomer() {
       return { previous };
     },
     onSuccess: () => {
-      console.log("Customer deleted");
-    },
-    onSettled: () => {
       queryclient.invalidateQueries({ queryKey: ["customers"] });
+      console.log("Customer deleted");
     },
     onError: (error) => {
       console.error("Failed to delete customer:", error.message);

@@ -78,6 +78,14 @@ function EditCustomer({ customer, onClose }) {
           onChange={handleChange}
           className="bg-[#181C26] border border-[#252A35] rounded-lg px-3 py-2 text-sm text-white"
         />
+        <textarea
+          name="notes"
+          value={form.notes || ""}
+          onChange={handleChange}
+          placeholder="Meeting notes and follow-up items"
+          rows={2}
+          className="bg-[#181C26] border border-[#252A35] rounded-lg px-3 py-2 text-sm text-white placeholder:text-[#6F7485] outline-none focus:border-[#9496FF] resize-none w-full"
+        />
 
         <div className="flex justify-end gap-2 mt-3">
           <button
