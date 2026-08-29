@@ -201,7 +201,7 @@ function SortableRow({ index, item, onedit, onViewDetails, onDelete }) {
           {...attributes}
           {...listeners}
           onClick={(e) => e.stopPropagation()}
-          className="cursor-grab text-[#6F7485] hover:text-white"
+          className="cursor-grab text-[#6F7485] hover:text-white touch-none"
         >
           <GripVertical className="h-4 w-4" />
         </button>
