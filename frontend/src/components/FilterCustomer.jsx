@@ -135,7 +135,7 @@ function FilterCustomer({
         </div>
         <button
           onClick={clearAll}
-          className="mt-auto py-2 text-sm text-[#9BA0B4] border border-[#252A35] rounded-lg hover:bg-[#181C26] hover:text-white transition-all"
+          className="py-2 text-sm text-[#9BA0B4] border border-[#252A35] rounded-lg hover:bg-[#181C26] hover:text-white transition-all"
         >
           Clear all
         </button>
