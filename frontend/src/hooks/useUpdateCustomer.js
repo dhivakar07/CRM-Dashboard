@@ -1,4 +1,3 @@
-// hooks/useUpdateCustomer.js
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 
@@ -15,6 +14,7 @@ export function useUpdateCustomer() {
       console.log("Edited Successfully");
     },
     onError: (error) => {
+      console.log(import.meta.env.VITE_SERVER_API);
       console.error(error.message);
     },
   });
